@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="fill"
+    android:layout_margin="8dp"
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:elevation="50dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/black"
+    app:cardCornerRadius="10dp"
+    android:id="@+id/listItemCardView">
+
+    <ImageView
+        android:id="@+id/listItemImageView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:background="#DFDFDF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/listItemTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="name"
+            android:textColor="#4d5663"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/listItemPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:text="Php 0.0"
+            android:textColor="#4d5663"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+
+</com.google.android.material.card.MaterialCardView>

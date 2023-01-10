@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "556969186159",
+    "project_id": "irasethpharma-ef44e",
+    "storage_bucket": "irasethpharma-ef44e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556969186159:android:610b8d95a0693c5f1e8e9a",
+        "android_client_info": {
+          "package_name": "com.example.irasethpharma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556969186159-av5r4a2ho37bf6up9hpr9u6bjlge210t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz8tI0xo9fP9EkIkvteF0KvkAsllT0VjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556969186159-av5r4a2ho37bf6up9hpr9u6bjlge210t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
